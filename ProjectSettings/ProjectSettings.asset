@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 8f0e705be05c90b4cb62840462f4e0c5
+  productGUID: 9d2ec742e1e89594ba038450d7158c8c
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: lagome
+  productName: lagomera
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -719,14 +719,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: lagome
+  metroPackageName: lagomera
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: lagome
+  metroApplicationDescription: lagomera
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -794,10 +794,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 27505992-0dea-47a0-a856-f5865fbc53e7
+  cloudProjectId: 68da6512-2281-4e64-8083-5e3efc49595d
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: lagome
+  projectName: lagomera
   organizationId: kilianjosesosaguillen
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

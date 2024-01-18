@@ -8,6 +8,6 @@ public class CameraController : MonoBehaviour {
         //transform.position = new Vector3(Mathf.Clamp(player.transform.position.x, xMin, xMax), 
         //    transform.position.y, transform.position.z);
         transform.position = new Vector3(player.transform.position.x,
-            transform.position.y, transform.position.z);
+            player.transform.position.y, transform.position.z);
     }
 }

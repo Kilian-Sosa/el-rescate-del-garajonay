@@ -1,7 +1,7 @@
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
-    [SerializeField] float lineLength, offset;
+    [SerializeField] float lineLength, xOffset, yOffset;
     private Animator animator;
 
     void Start() {
@@ -13,12 +13,30 @@ public class PlayerController : MonoBehaviour {
     }
 
     bool IsInAir() {
-        Vector2 origin = new Vector2(transform.position.x, transform.position.y - offset);
-        Vector2 target = origin - new Vector2(0, lineLength);
-        Debug.DrawLine(origin, target, Color.black);
+        Vector2 leftOrigin = new Vector2(transform.position.x - xOffset, transform.position.y - yOffset);
+        Vector2 rightOrigin = new Vector2(transform.position.x + xOffset, transform.position.y - yOffset);
 
-        RaycastHit2D raycast = Physics2D.Raycast(origin, Vector2.down, lineLength, 5);
+        Vector2 leftTarget = leftOrigin - new Vector2(0, lineLength);
+        Vector2 rightTarget = rightOrigin - new Vector2(0, lineLength);
 
-        return raycast.collider == null;
+        Debug.DrawLine(leftOrigin, leftTarget, Color.black);
+        Debug.DrawLine(rightOrigin, rightTarget, Color.black);
+
+        RaycastHit2D leftRaycast = Physics2D.Raycast(leftOrigin, Vector2.down, lineLength);
+        RaycastHit2D rightRaycast = Physics2D.Raycast(rightOrigin, Vector2.down, lineLength);
+
+        //RaycastHit2D leftRaycast = Physics2D.Raycast(leftOrigin, Vector2.down, lineLength, 0);
+        //RaycastHit2D rightRaycast = Physics2D.Raycast(rightOrigin, Vector2.down, lineLength, 0);
+
+        //print(leftRaycast.collider);
+        //print(rightRaycast.collider);
+
+        //return leftRaycast.collider == null && rightRaycast.collider == null;
+
+        // Check if the collider is on the desired layer
+        bool leftHitOnCorrectLayer = leftRaycast.collider != null && leftRaycast.collider.gameObject.layer == 3;
+        bool rightHitOnCorrectLayer = rightRaycast.collider != null && rightRaycast.collider.gameObject.layer == 3;
+
+        return !leftHitOnCorrectLayer && !rightHitOnCorrectLayer;
     }
 }

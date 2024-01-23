@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Gomera_Background_Tileset_2_40
+  m_Name: clouds2
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -701556220, guid: eda96499e290d5f4e8fd5669da1047f9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5090274008b4c404cb7ba210e58d2298, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

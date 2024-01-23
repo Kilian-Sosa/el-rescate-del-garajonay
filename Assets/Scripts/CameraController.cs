@@ -2,12 +2,10 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour {
     [SerializeField] GameObject player;
-    [SerializeField] float xMin, xMax;
+    [SerializeField] float xMin, xMax, yMin, yMax;
 
     void Update() {
-        //transform.position = new Vector3(Mathf.Clamp(player.transform.position.x, xMin, xMax), 
-        //    transform.position.y, transform.position.z);
-        transform.position = new Vector3(player.transform.position.x,
-            player.transform.position.y, transform.position.z);
+        transform.position = new Vector3(Mathf.Clamp(player.transform.position.x, xMin, xMax),
+            Mathf.Clamp(player.transform.position.y, yMin, yMax), transform.position.z);
     }
 }

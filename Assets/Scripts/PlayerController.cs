@@ -1,8 +1,11 @@
+using TMPro;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class PlayerController : MonoBehaviour {
     [SerializeField] float lineLength, xOffset, yOffset;
     private Animator animator;
+    float score = 0;
 
     void Start() {
         animator = GetComponent<Animator>();
@@ -38,5 +41,19 @@ public class PlayerController : MonoBehaviour {
         bool rightHitOnCorrectLayer = rightRaycast.collider != null && rightRaycast.collider.gameObject.layer == 3;
 
         return !leftHitOnCorrectLayer && !rightHitOnCorrectLayer;
+    }
+
+    void OnTriggerEnter2D(Collider2D collision) {
+        if (collision != null) {
+            if (collision.CompareTag("Crystal")) {
+                Destroy(collision.gameObject);
+                GameObject.Find("Score").GetComponent<TextMeshProUGUI>().text = $"{++score}/10";
+
+            }
+            //if (collision.CompareTag("Goal")) {
+            //    if (GameObject.Find("Score") != null) return;
+            //    GameManager.instance.ChangeLevel();
+            //}
+        }
     }
 }

@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Colliders
+  - Timer
   layers:
   - Default
   - TransparentFX

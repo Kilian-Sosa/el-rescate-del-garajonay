@@ -25,8 +25,8 @@ public class PlayerController : MonoBehaviour {
         RaycastHit2D leftRaycast = Physics2D.Raycast(leftOrigin, Vector2.down, lineLength);
         RaycastHit2D rightRaycast = Physics2D.Raycast(rightOrigin, Vector2.down, lineLength);
 
-        //RaycastHit2D leftRaycast = Physics2D.Raycast(leftOrigin, Vector2.down, lineLength, 0);
-        //RaycastHit2D rightRaycast = Physics2D.Raycast(rightOrigin, Vector2.down, lineLength, 0);
+        //RaycastHit2D leftRaycast = Physics2D.Raycast(leftOrigin, Vector2.down, lineLength, 3);
+        //RaycastHit2D rightRaycast = Physics2D.Raycast(rightOrigin, Vector2.down, lineLength, 3);
 
         //print(leftRaycast.collider);
         //print(rightRaycast.collider);

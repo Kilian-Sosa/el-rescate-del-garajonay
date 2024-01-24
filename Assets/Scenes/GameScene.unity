@@ -4056,9 +4056,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bb0e86fa0b7619478dcde80b405aa37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  patrolSpeed: 2.3
+  patrolSpeed: 3
   pointA: {fileID: 2017085527}
   pointB: {fileID: 1435745368}
+  epsilon: 2
 --- !u!50 &1435745365
 Rigidbody2D:
   serializedVersion: 4

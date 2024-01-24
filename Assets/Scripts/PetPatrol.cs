@@ -7,7 +7,7 @@ public class EnemyPatrol : MonoBehaviour
     public Transform pointB;
 
     private bool movingTowardsA = true;
-    private float epsilon = 0.5f; // Tolerancia para la comparación de posiciones
+    public float epsilon = 0.5f; // Tolerancia para la comparación de posiciones
 
     void Update()
     {
@@ -39,6 +39,7 @@ public class EnemyPatrol : MonoBehaviour
         if (Mathf.Abs(transform.position.x - targetPoint.position.x) < epsilon &&
             Mathf.Abs(transform.position.y - targetPoint.position.y) < epsilon)
         {
+            GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             movingTowardsA = !movingTowardsA;
         }
     }

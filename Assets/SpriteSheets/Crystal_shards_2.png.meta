@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fb0eed01595d4fe43a3d6fe9618c9564
+guid: d79f161e7589eaa49818af1f0cb28c6e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 170
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,127 +123,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlayerIdle_0
+      name: Crystal_shards_2_0
       rect:
         serializedVersion: 2
-        x: 64
-        y: 560
-        width: 88
-        height: 128
+        x: 2
+        y: 34
+        width: 28
+        height: 28
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79cf5b24ee24e5f4abddc93ab36cdcfb
-      internalID: -731069116
+      spriteID: e1ffe28dde186eb4eb50e6ad418a3424
+      internalID: 464065929
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerIdle_1
+      name: Crystal_shards_2_1
       rect:
         serializedVersion: 2
-        x: 320
-        y: 560
-        width: 88
-        height: 128
+        x: 34
+        y: 34
+        width: 28
+        height: 28
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ece24fb3fe9bfe449b84c05b9543f5a2
-      internalID: -60242027
+      spriteID: c370ce02c5a8d6d449c5d10effd9fe62
+      internalID: 95306571
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerIdle_2
+      name: Crystal_shards_2_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 304
-        width: 88
-        height: 128
+        x: 2
+        y: 2
+        width: 28
+        height: 28
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e335d60787abf145bd05d5a37ea3a1d
-      internalID: -336576488
+      spriteID: c24e8aa042d8c6c468224e57fd7f344d
+      internalID: 782900601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerIdle_3
+      name: Crystal_shards_2_3
       rect:
         serializedVersion: 2
-        x: 320
-        y: 304
-        width: 88
-        height: 128
+        x: 34
+        y: 2
+        width: 28
+        height: 28
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f74e9a99d9c70f4293a7722be5d1108
-      internalID: -926114742
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerIdle_4
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 48
-        width: 88
-        height: 128
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cbd76cacc585d1f4ebd9b22f644ba2cb
-      internalID: -1269636592
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerIdle_5
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 48
-        width: 88
-        height: 128
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: df8f3071dff466449b74eaa7057c7551
-      internalID: 116546265
+      spriteID: cc2f69b3eef328d4ca4f34e17662191b
+      internalID: 518261769
       vertices: []
       indices: 
       edges: []
@@ -259,12 +217,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PlayerIdle_0: -731069116
-      PlayerIdle_1: -60242027
-      PlayerIdle_2: -336576488
-      PlayerIdle_3: -926114742
-      PlayerIdle_4: -1269636592
-      PlayerIdle_5: 116546265
+      Crystal_shards_2_0: 464065929
+      Crystal_shards_2_1: 95306571
+      Crystal_shards_2_2: 782900601
+      Crystal_shards_2_3: 518261769
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

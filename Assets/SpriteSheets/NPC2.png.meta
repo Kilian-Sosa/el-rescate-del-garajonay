@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fb0eed01595d4fe43a3d6fe9618c9564
+guid: 9063b4c4658b20f4b91fc7ac3cae8bf0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 170
+  spritePixelsToUnits: 120
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,127 +123,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlayerIdle_0
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 560
-        width: 88
-        height: 128
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 79cf5b24ee24e5f4abddc93ab36cdcfb
-      internalID: -731069116
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerIdle_1
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 560
-        width: 88
-        height: 128
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ece24fb3fe9bfe449b84c05b9543f5a2
-      internalID: -60242027
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerIdle_2
+      name: NPC2_0
       rect:
         serializedVersion: 2
         x: 64
         y: 304
         width: 88
-        height: 128
+        height: 144
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e335d60787abf145bd05d5a37ea3a1d
-      internalID: -336576488
+      spriteID: 7e8933d9b520b464dbcf60ad4b168ed2
+      internalID: 1869888909
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerIdle_3
+      name: NPC2_1
       rect:
         serializedVersion: 2
         x: 320
         y: 304
         width: 88
-        height: 128
+        height: 152
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f74e9a99d9c70f4293a7722be5d1108
-      internalID: -926114742
+      spriteID: 172bcd11c188579439913c49b34d5a42
+      internalID: 1380151197
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerIdle_4
+      name: NPC2_2
       rect:
         serializedVersion: 2
         x: 64
         y: 48
         width: 88
-        height: 128
+        height: 144
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbd76cacc585d1f4ebd9b22f644ba2cb
-      internalID: -1269636592
+      spriteID: 4dd2b3dcc49cd5044a8ab5ef2d8a2685
+      internalID: 1139525390
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerIdle_5
+      name: NPC2_3
       rect:
         serializedVersion: 2
         x: 320
         y: 48
         width: 88
-        height: 128
+        height: 144
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df8f3071dff466449b74eaa7057c7551
-      internalID: 116546265
+      spriteID: c7b47f73ae0641d4cbe163b7ef2be2bb
+      internalID: 1176012116
       vertices: []
       indices: 
       edges: []
@@ -259,12 +217,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PlayerIdle_0: -731069116
-      PlayerIdle_1: -60242027
-      PlayerIdle_2: -336576488
-      PlayerIdle_3: -926114742
-      PlayerIdle_4: -1269636592
-      PlayerIdle_5: 116546265
+      NPC2_0: 1869888909
+      NPC2_1: 1380151197
+      NPC2_2: 1139525390
+      NPC2_3: 1176012116
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -5,11 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - Colliders
+  - Timer
+  - Crystal
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Colliders
   - Water
   - UI
   - 

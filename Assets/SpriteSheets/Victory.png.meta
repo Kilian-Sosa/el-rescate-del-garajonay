@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a7fde39f00badab4c9e236f99e90e6a5
+guid: 58d4640c82543d043aed3f37a47c543a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Victory_0
+      name: Victory 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b40219ccc31800f4086858ddebd7586b
-      internalID: 1951019989
+      spriteID: f908086ebbb21ae43b779cffd712d3a0
+      internalID: 1412497538
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Victory_1
+      name: Victory 1_1
       rect:
         serializedVersion: 2
         x: 228
@@ -158,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 126d6224a652ec645b7b0a7af34894c1
-      internalID: 1993894633
+      spriteID: 2c26d304936bf29449181a4008c4f727
+      internalID: -1894011785
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Victory_2
+      name: Victory 1_2
       rect:
         serializedVersion: 2
         x: 0
@@ -179,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a5703f8aba06d4498edeca6f596e97e
-      internalID: 93961515
+      spriteID: 3cc430d2c68f50c48be320722cc8eb49
+      internalID: 1751068681
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Victory_3
+      name: Victory 1_3
       rect:
         serializedVersion: 2
         x: 228
@@ -200,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aaa7e1f2314e0c447abea8e9a548fc35
-      internalID: -2114947512
+      spriteID: 7b46379801557864bb6b78a0d25068f9
+      internalID: 2000047097
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Victory_4
+      name: Victory 1_4
       rect:
         serializedVersion: 2
         x: 0
@@ -221,14 +221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9364d97ae0138b74dab1f31a091eb2e9
-      internalID: 1715639498
+      spriteID: 98719fe0b1a959646ab8060d3a6b752f
+      internalID: 491863251
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Victory_5
+      name: Victory 1_5
       rect:
         serializedVersion: 2
         x: 228
@@ -242,14 +242,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e119d430f3d452499cf9e7fe49dd202
-      internalID: 109786909
+      spriteID: 936bbb748daa03542a08dd1be7e47573
+      internalID: -62992255
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Victory_6
+      name: Victory 1_6
       rect:
         serializedVersion: 2
         x: 0
@@ -263,14 +263,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9332a99d0fe4344f81c5a3bc9d767dc
-      internalID: 1636413565
+      spriteID: 648d0834ad8a4c24982da28f61088267
+      internalID: 1655200255
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Victory_7
+      name: Victory 1_7
       rect:
         serializedVersion: 2
         x: 228
@@ -284,8 +284,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf95bf0450d600f418de8630e61ad10f
-      internalID: 761394745
+      spriteID: 7be6ab643b0b966438450c5840d175ca
+      internalID: 1213954651
       vertices: []
       indices: 
       edges: []
@@ -301,14 +301,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Victory_0: 1951019989
-      Victory_1: 1993894633
-      Victory_2: 93961515
-      Victory_3: -2114947512
-      Victory_4: 1715639498
-      Victory_5: 109786909
-      Victory_6: 1636413565
-      Victory_7: 761394745
+      Victory 1_0: 1412497538
+      Victory 1_1: -1894011785
+      Victory 1_2: 1751068681
+      Victory 1_3: 2000047097
+      Victory 1_4: 491863251
+      Victory 1_5: -62992255
+      Victory 1_6: 1655200255
+      Victory 1_7: 1213954651
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

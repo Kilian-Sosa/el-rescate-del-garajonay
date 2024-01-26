@@ -29,7 +29,7 @@ public class AudioManager : MonoBehaviour {
     }
 
     private void LoadMusicClips() {
-        musicClips["MainTheme"] = Resources.Load<AudioClip>("Music/Main_Theme");
+        musicClips["MainTheme"] = Resources.Load<AudioClip>("Music/mainTheme");
     }
 
     public void PlaySFX(string clipName) {

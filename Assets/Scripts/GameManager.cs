@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
 
@@ -8,10 +9,12 @@ public class GameManager : MonoBehaviour {
     void Start() {
         if (instance == null) instance = this;
         lastCheckPointPosition = default(Vector2);
+        AudioManager.instance.PlayMusic("mainTheme");
     }
 
     void Update() {
-        if (Input.GetKey(KeyCode.R)) Respawn();
+        if (SceneManager.GetActiveScene().name != "GameScene") return;
+        if ((Input.GetKey(KeyCode.R) || Input.GetButton("Fire2"))) Respawn();
     }
 
     void Respawn() {

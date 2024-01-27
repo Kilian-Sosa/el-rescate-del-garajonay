@@ -13,4 +13,8 @@ public class Menu : MonoBehaviour {
     public void Quit() {
         Application.Quit();
     }
+
+    public void OpenMenu() {
+        SCManager.instance.LoadScene("Menu");
+    }
 }

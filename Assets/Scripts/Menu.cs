@@ -15,6 +15,7 @@ public class Menu : MonoBehaviour {
     }
 
     public void OpenMenu() {
+        if (GameManager.instance.isPaused) GameManager.instance.TogglePause();
         SCManager.instance.LoadScene("Menu");
     }
     public void Unpause() {

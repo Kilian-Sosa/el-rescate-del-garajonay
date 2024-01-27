@@ -5,7 +5,7 @@ public class GameManager : MonoBehaviour {
 
     public Vector2 lastCheckPointPosition;
     public static GameManager instance;
-    private bool isPaused = false;
+    public bool isPaused = false;
 
     void Awake() {
         if (instance == null) instance = this;

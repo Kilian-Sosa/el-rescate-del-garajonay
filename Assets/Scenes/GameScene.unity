@@ -342,6 +342,7 @@ MonoBehaviour:
   pointB: {fileID: 40917323}
   objectToAppearDisappear: {fileID: 2128351021}
   epsilon: 5
+  loadMusic: 1
 --- !u!212 &40917322
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -98848,6 +98849,7 @@ MonoBehaviour:
   pointB: {fileID: 1608755188}
   objectToAppearDisappear: {fileID: 183472444}
   epsilon: 3
+  loadMusic: 0
 --- !u!1001 &1644079568
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -99594,6 +99596,7 @@ MonoBehaviour:
   pointB: {fileID: 1994995324}
   objectToAppearDisappear: {fileID: 826456237}
   epsilon: 5
+  loadMusic: 1
 --- !u!212 &1994995323
 SpriteRenderer:
   m_ObjectHideFlags: 0

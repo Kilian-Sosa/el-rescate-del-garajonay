@@ -6,6 +6,7 @@ public class Dialog : MonoBehaviour
     public Transform pointB;
     public GameObject objectToAppearDisappear;
     public float epsilon = 0.5f; // Tolerancia para la comparación de posiciones
+    public bool loadMusic = true;
 
     void Update()
     {
@@ -16,7 +17,10 @@ public class Dialog : MonoBehaviour
         if (currentDistance < epsilon)
         {
             objectToAppearDisappear.SetActive(true); // Aparece el objeto
-            AudioManager.instance.PlaySFX("Whistle3SFX");
+            if (loadMusic) {
+                AudioManager.instance.PlaySFX("Whistle3SFX");
+                loadMusic = false;
+            }
         }
         else
         {

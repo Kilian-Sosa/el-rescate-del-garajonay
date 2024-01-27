@@ -1,6 +1,5 @@
 using TMPro;
 using UnityEngine;
-using UnityEngine.SocialPlatforms.Impl;
 
 public class PlayerController : MonoBehaviour {
     [SerializeField] float lineLength, xOffset, yOffset;
@@ -28,15 +27,6 @@ public class PlayerController : MonoBehaviour {
         RaycastHit2D leftRaycast = Physics2D.Raycast(leftOrigin, Vector2.down, lineLength);
         RaycastHit2D rightRaycast = Physics2D.Raycast(rightOrigin, Vector2.down, lineLength);
 
-        //RaycastHit2D leftRaycast = Physics2D.Raycast(leftOrigin, Vector2.down, lineLength, 3);
-        //RaycastHit2D rightRaycast = Physics2D.Raycast(rightOrigin, Vector2.down, lineLength, 3);
-
-        //print(leftRaycast.collider);
-        //print(rightRaycast.collider);
-
-        //return leftRaycast.collider == null && rightRaycast.collider == null;
-
-        // Check if the collider is on the desired layer
         bool leftHitOnCorrectLayer = leftRaycast.collider != null && leftRaycast.collider.gameObject.layer == 3;
         bool rightHitOnCorrectLayer = rightRaycast.collider != null && rightRaycast.collider.gameObject.layer == 3;
 
@@ -48,12 +38,11 @@ public class PlayerController : MonoBehaviour {
             if (collision.CompareTag("Shard")) {
                 Destroy(collision.gameObject);
                 GameObject.Find("Score").GetComponent<TextMeshProUGUI>().text = $"{++score}/10";
-
             }
-            //if (collision.CompareTag("Crystal")) {
-            //    if (GameObject.Find("Score") != null) return;
-            //    GameManager.instance.ChangeLevel();
-            //}
+            if (collision.CompareTag("Crystal") && score >= 10) {
+                AudioManager.instance.PlaySFX("Whistle3SFX");
+                SCManager.instance.LoadScene("Victory");
+            }
         }
     }
 }

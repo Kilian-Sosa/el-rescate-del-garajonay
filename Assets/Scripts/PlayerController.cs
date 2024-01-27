@@ -45,12 +45,12 @@ public class PlayerController : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D collision) {
         if (collision != null) {
-            if (collision.CompareTag("Crystal")) {
+            if (collision.CompareTag("Shard")) {
                 Destroy(collision.gameObject);
                 GameObject.Find("Score").GetComponent<TextMeshProUGUI>().text = $"{++score}/10";
 
             }
-            //if (collision.CompareTag("Goal")) {
+            //if (collision.CompareTag("Crystal")) {
             //    if (GameObject.Find("Score") != null) return;
             //    GameManager.instance.ChangeLevel();
             //}

@@ -6,8 +6,10 @@ public class GameManager : MonoBehaviour {
     public Vector2 lastCheckPointPosition;
     public static GameManager instance;
 
-    void Start() {
+    void Awake() {
         if (instance == null) instance = this;
+        else { Destroy(gameObject); return; }
+        DontDestroyOnLoad(gameObject);
         lastCheckPointPosition = default(Vector2);
         AudioManager.instance.PlayMusic("mainTheme");
     }

@@ -2,12 +2,15 @@ using UnityEngine;
 
 public class Menu : MonoBehaviour {
 
-    void Start() {
-        
+    public void Play() {
+        SCManager.instance.LoadScene("GameScene");
     }
 
-    // Update is called once per frame
-    void Update() {
-        
+    public void Credits() {
+        SCManager.instance.LoadScene("Victory");
+    }
+
+    public void Quit() {
+        Application.Quit();
     }
 }

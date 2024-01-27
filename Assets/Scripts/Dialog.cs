@@ -16,7 +16,7 @@ public class Dialog : MonoBehaviour
         if (currentDistance < epsilon)
         {
             objectToAppearDisappear.SetActive(true); // Aparece el objeto
-            AudioManager.instance.PlaySFX($"Whistle3SFX");
+            AudioManager.instance.PlaySFX("Whistle3SFX");
         }
         else
         {

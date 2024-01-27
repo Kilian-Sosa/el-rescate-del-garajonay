@@ -17,4 +17,8 @@ public class Menu : MonoBehaviour {
     public void OpenMenu() {
         SCManager.instance.LoadScene("Menu");
     }
+    public void Unpause() {
+        Time.timeScale = 1f;
+        GameObject.Find("CanvasCam").transform.Find("Pause").gameObject.SetActive(false);
+    }
 }

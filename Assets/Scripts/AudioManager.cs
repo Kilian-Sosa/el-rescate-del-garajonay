@@ -29,7 +29,7 @@ public class AudioManager : MonoBehaviour {
     }
 
     private void LoadMusicClips() {
-        musicClips["MainTheme"] = Resources.Load<AudioClip>("Music/Main_Theme");
+        musicClips["mainTheme"] = Resources.Load<AudioClip>("Music/mainTheme");
     }
 
     public void PlaySFX(string clipName) {
@@ -45,7 +45,7 @@ public class AudioManager : MonoBehaviour {
             musicSource.Play();
         } else Debug.LogWarning("El AudioClip " + clipName + " no se encontró en el diccionario de musicClips.");
 
-        musicSource.loop = (clipName == "MainTheme") ? true : false;
+        musicSource.loop = (clipName == "mainTheme") ? true : false;
     }
 
 }

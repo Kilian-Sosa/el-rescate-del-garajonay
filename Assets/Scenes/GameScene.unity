@@ -1836,12 +1836,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 093edd277ca0b0e4eb61759d6a8767ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 2017085526}
-  shakeDuration: 0.1
-  shakeMagnitude: 0.05
-  fallThreshold: -5
-  lerpSpeed: 4
-  cameraOffset: {x: 5, y: 0}
 --- !u!1 &532972301
 GameObject:
   m_ObjectHideFlags: 0
@@ -5935,9 +5929,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1435745368}
   - component: {fileID: 1435745367}
-  - component: {fileID: 1435745366}
   - component: {fileID: 1435745365}
   - component: {fileID: 1435745364}
+  - component: {fileID: 1435745369}
   m_Layer: 0
   m_Name: Fairy
   m_TagString: Untagged
@@ -5988,27 +5982,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!95 &1435745366
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1435745363}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 284e67dce63c30d42b5d36e33b8c0322, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &1435745367
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6076,6 +6049,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1435745369
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1435745363}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2b8137dd4fcee1e4f97e589396f0d58b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1438359474
 GameObject:
   m_ObjectHideFlags: 0

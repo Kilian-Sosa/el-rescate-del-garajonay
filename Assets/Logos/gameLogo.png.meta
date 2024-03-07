@@ -1,5 +1,9 @@
 fileFormatVersion: 2
-guid: 05c37959c187e5f44a22673a384e1622
+<<<<<<<< HEAD:Assets/Logos/GallinaLord3000_square.png.meta
+guid: b3ea196030bdc894392332619b612ca8
+========
+guid: b33d18356e1c0884788edbff5264e558
+>>>>>>>> features:Assets/Logos/gameLogo.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +52,11 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 192
+<<<<<<<< HEAD:Assets/Logos/GallinaLord3000_square.png.meta
+  spritePixelsToUnits: 100
+========
+  spritePixelsToUnits: 108
+>>>>>>>> features:Assets/Logos/gameLogo.png.meta
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1

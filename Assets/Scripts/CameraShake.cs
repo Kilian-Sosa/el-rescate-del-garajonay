@@ -39,7 +39,6 @@ public class CameraShake : MonoBehaviour {
         }
 
         float velocity = player.GetComponent<Rigidbody2D>().velocity.y;
-        print(velocity);
 
         if (velocity < maxVelocity) {
             maxVelocity = velocity;

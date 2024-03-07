@@ -17,8 +17,8 @@ public class GameManager : MonoBehaviour {
 
     void Update() {
         if (SceneManager.GetActiveScene().name != "GameScene") return;
-        if (Input.GetButtonDown("Submit")) TogglePause();
-        if (Input.GetButtonDown("Fire2") || Input.GetKeyDown(KeyCode.R)) Respawn();
+        if (Input.GetButtonDown("Start")) TogglePause();
+        if ((Input.GetButtonDown("Fire3") || Input.GetKeyDown(KeyCode.R)) && Time.timeScale != 0) Respawn();
     }
 
     void Respawn() {

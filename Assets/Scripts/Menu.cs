@@ -5,12 +5,11 @@ public class Menu : MonoBehaviour {
 
     private void Update() {
         if (SceneManager.GetActiveScene().name == "Menu") {
-            if (Input.GetButtonDown("Jump")) Play();
-            if (Input.GetButtonDown("Fire3")) Credits();
+            if (Input.GetButtonDown("Submit")) Play();
+            if (Input.GetButtonDown("Fire4")) Credits();
         }
         if (SceneManager.GetActiveScene().name == "Victory" && Input.GetButtonDown("Cancel")) OpenMenu();
         if (SceneManager.GetActiveScene().name == "GameScene") {
-            if (Input.GetButtonDown("Submit")) Unpause();
             if (Input.GetButtonDown("Cancel")) OpenMenu();
         }
     }
@@ -29,10 +28,7 @@ public class Menu : MonoBehaviour {
 
     public void OpenMenu() {
         if (GameManager.instance.isPaused) GameManager.instance.TogglePause();
+        GameManager.instance.lastCheckPointPosition = default(Vector2);
         SCManager.instance.LoadScene("Menu");
-    }
-    public void Unpause() {
-        Time.timeScale = 1f;
-        GameObject.Find("CanvasCam").transform.Find("Pause").gameObject.SetActive(false);
     }
 }

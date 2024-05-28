@@ -42,9 +42,9 @@ PlayerSettings:
   m_SplashScreenLogos:
   - logo: {fileID: 10404, guid: 0000000000000000f000000000000000, type: 0}
     duration: 2
-  - logo: {fileID: 21300000, guid: 604019adf81f16b4cb19e5783104bf14, type: 3}
+  - logo: {fileID: 21300000, guid: a765a825a14ecca40a4afd534570def7, type: 3}
     duration: 2
-  - logo: {fileID: 21300000, guid: a121e36aa6863f94e8ec4c26a5a43447, type: 3}
+  - logo: {fileID: 21300000, guid: 5a1ccc2ea8623a545ae6081a552fbb9e, type: 3}
     duration: 2
   - logo: {fileID: 21300000, guid: 42dce1e22d3be3447b5390bc737b48e5, type: 3}
     duration: 3
@@ -739,7 +739,7 @@ PlayerSettings:
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: lagomera
-  metroPackageVersion: 
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -747,7 +747,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: lagomera
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: elrescatedelgarajonay
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
